@@ -1,0 +1,243 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 225px;
+  font-size: small;
+  background-color: #f9f9f9;
+  border-right: 1px solid rgb(92, 187, 224);
+}
+.anchor {
+  text-decoration: none;
+  color: blue;
+}
+.anchor:hover{
+    text-decoration: underline;
+}
+.lang-settingicon {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.child-2 {
+  width: 100%;
+  border-bottom: 1px solid rgb(92, 187, 224);
+}
+.login-menu-contant {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: baseline;
+  font-size: smaller;
+}
+.search-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: smaller;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search-btn {
+  height: 30px;
+  width: 215px;
+}
+.welcome-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid darkgray;
+}
+.Welcome-text-1 {
+  font-size: 25px;
+}
+.article-one {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.left-art {
+  width: 54%;
+  min-width: 200px;
+  border: 1px solid #cef2e0;
+  background: #f5fffa;
+  padding: 5px;
+  font-size: 15px;
+}
+.left-head {
+  padding: 3px;
+  border: 1px solid #a3bfb1;
+  background: #cef2e0;
+  width: 100%;
+}
+.left-art-img1 {
+  float: left;
+}
+.left-art-img-figcap1 {
+  float: left;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.left-art-img-figcap2 {
+  float: right;
+  font-size: 12px;
+}
+.float-right-para {
+  text-align: right;
+}
+.right-art {
+  width: 45%;
+  min-width: 200px;
+  border: 1px solid #cef2e0;
+  background: #f5fffa;
+  padding: 5px;
+  font-size: 15px;
+}
+p {
+  margin: 0px;
+}
+.right-head {
+  padding: 3px;
+  border: 1px solid #a3bfb1;
+  background: #cef2e0;
+  width: 100%;
+}
+.right-art-img-figcap1 {
+  float: right;
+  font-size: 12px;
+}
+.right-art-img-figcap2 {
+  float: right;
+  font-size: 12px;
+}
+.horizontal-article {
+  width: 100%;
+  height: fit-content;
+  padding: 5px;
+  border: 1px solid #cef2e0;
+  background: #f5fffa;
+}
+.horizontal-head {
+  padding: 3px;
+  border: 1px solid #a3bfb1;
+  background: #cef2e0;
+  width: 100%;
+}
+.horizontal-img {
+  margin-right: 10px;
+  width: 250px;
+  height: 300px;
+}
+.horizontal-art-content {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.wikipedia-info {
+  width: 100%;
+  border: 1px solid #cef2e0;
+  background: #f5fffa;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.wikipedia-head1 {
+  padding: 3px;
+  border: 1px solid #a3bfb1;
+  background: #cef2e0;
+  width: 100%;
+}
+.lang-list {
+  display: flex;
+  font-size: small;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.icon-div {
+  width: 250px;
+  height: 60px;
+}
+.icon-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+.dec-line-text {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.dec-line-text::before,
+.dec-line-text::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+  opacity: 50%;
+}
+.dec-line-text::before {
+  margin-right: 10px;
+}
+.dec-line-text::after {
+  margin-left: 10px;
+}
+.wikipedia-icons {
+  display: flex;
+  column-gap: 162px;
+  flex-wrap: wrap;
+}
+.links {
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+.footer-para {
+  width: auto;
+  height: auto;
+}
+.footer-img {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+  padding-left: 200px;
+  padding-right: 20px;
+  background-color: #f9f9f9;
+  font-size: small;
+  padding-top: 20px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 770px) {
+  .left-art,
+  .right-art {
+    width: 100%;
+  }
+
+  .horizontal-art-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
